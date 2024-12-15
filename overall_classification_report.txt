@@ -1,0 +1,74 @@
+
+Growth Model Classification Report:
+              precision    recall  f1-score   support
+
+        fast       0.67      0.35      0.46        52
+    moderate       0.54      0.84      0.66        86
+        slow       0.42      0.20      0.27        41
+
+    accuracy                           0.55       179
+   macro avg       0.54      0.46      0.46       179
+weighted avg       0.55      0.55      0.51       179
+
+
+Sunlight Model Classification Report:
+                   precision    recall  f1-score   support
+
+    full sunlight       0.78      0.94      0.85       123
+indirect sunlight       0.67      0.43      0.52        28
+ partial sunlight       0.50      0.21      0.30        28
+
+         accuracy                           0.75       179
+        macro avg       0.65      0.53      0.56       179
+     weighted avg       0.72      0.75      0.71       179
+
+
+Soil Model Classification Report:
+              precision    recall  f1-score   support
+
+      acidic       0.22      0.22      0.22         9
+       loamy       0.10      0.04      0.06        26
+       moist       0.14      0.10      0.12        10
+       sandy       0.50      0.17      0.25        53
+well-drained       0.45      0.75      0.56        81
+
+    accuracy                           0.41       179
+   macro avg       0.28      0.26      0.24       179
+weighted avg       0.39      0.41      0.36       179
+
+
+Watering Model Classification Report:
+                               precision    recall  f1-score   support
+
+ Keep soil consistently moist       0.00      0.00      0.00        10
+       Keep soil evenly moist       0.00      0.00      0.00         1
+              Keep soil moist       0.00      0.00      0.00        19
+     Keep soil slightly moist       0.00      0.00      0.00         3
+Let soil dry between watering       0.50      0.33      0.40         9
+             Regular Watering       0.00      0.00      0.00        10
+             Regular watering       0.00      0.00      0.00        10
+          Regular, moist soil       0.22      0.08      0.11        26
+   Regular, well-drained soil       0.09      0.38      0.15        24
+                 Water weekly       0.40      0.12      0.18        34
+    Water when soil feels dry       0.33      0.33      0.33         3
+       Water when soil is dry       0.36      0.21      0.26        24
+    Water when topsoil is dry       0.00      0.00      0.00         6
+
+                     accuracy                           0.13       179
+                    macro avg       0.15      0.11      0.11       179
+                 weighted avg       0.20      0.13      0.13       179
+
+
+Fertilization Model Classification Report:
+              precision    recall  f1-score   support
+
+      Acidic       0.00      0.00      0.00         1
+    Balanced       0.38      0.20      0.26        74
+Low-nitrogen       0.09      0.04      0.06        25
+          No       0.14      0.07      0.09        15
+     Organic       0.34      0.62      0.44        64
+
+    accuracy                           0.32       179
+   macro avg       0.19      0.19      0.17       179
+weighted avg       0.30      0.32      0.28       179
+
